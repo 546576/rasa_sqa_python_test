@@ -37,8 +37,7 @@ jobs:
     - name: Install Task Warrior
       run: |
         sudo apt install taskwarrior
-        task version
-        yes
+        task config confirmation off
       
     - name: Test with pytest
       run: |
