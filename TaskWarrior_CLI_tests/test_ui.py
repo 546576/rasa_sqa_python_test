@@ -50,8 +50,8 @@ def test_modify_due_date():
     assert output == ''
 
 def test_skip_filters():
-    #Runtime error in cli; hangs on attempting to list with filters, command works manually. Debugging TODO
- #   #add multiple junk lists, filter to a specific list, expect list then cleanup
+    #Runtime error in cli; hangs on attempting to purge all tasks, command works manually. Debugging TODO
+    #add multiple junk lists, filter to a specific list, expect list then cleanup
     os.system('task add holy_grail')
     os.system('task add junklist1')
     os.system('task add junklist2')

@@ -8,6 +8,9 @@
 6. Install Taskwarrior `sudo apt install taskwarrior`
 7. Install Requests `pip install pytest requests`
 
+# Running the Tests (Windows):
+1. Ensure your terminal is WSL and NOT Powershell
+2. `pytest` to run all tests in the repo 
 
 # Part 1: TaskWarrior automation scenarios
 1. User can create and display list - Automated
