@@ -4,8 +4,6 @@ import os
 def test_addlist():
 
     #add list and assert list contents, then cleanup list 
-    os.system('task list')
-    os.system('yes')
     os.system('task add test scripts')
     os.system('task add push to repo')
     stream = os.popen('task list')
