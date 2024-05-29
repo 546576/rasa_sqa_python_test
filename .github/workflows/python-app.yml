@@ -37,6 +37,7 @@ jobs:
     - name: Install Task Warrior
       run: |
         sudo apt install taskwarrior -y
+        echo "data.location=~/.task" > /home/runner/.taskrc
     - name: Test with pytest
       run: |
         pytest
